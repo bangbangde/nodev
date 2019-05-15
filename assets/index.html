@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            console.log(event.type)
+        };
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log(event.type)
+        })
+    </script>
+    <link rel="stylesheet" href="./index.css?delay=3">
+    <script src="index.js?delay=6"></script>
+    <link rel="stylesheet" href="./index.css?delay=9">
+    <script src="index.js?delay=12"></script>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <img src="./img.jpeg?delay=21" alt="delay test">
+</body>
+</html>
