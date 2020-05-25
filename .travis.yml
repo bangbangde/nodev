@@ -2,3 +2,6 @@ os: linux
 dist: xenial #目标操作系统
 language: node_js
 node_js: lts/*
+script: true
+deploy:
+  - ls
